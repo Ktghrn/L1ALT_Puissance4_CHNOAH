@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+#btnretour{
+    background: linear-gradient(360deg, rgb(49, 0, 88), rgb(163, 114, 203));
+    font-size: 15px;
+    padding: 10px 1.3em 10px 1.3em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.section-global a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10em;
+    margin-top: -3.6em;
+}
+
+.body-global{
+    background-image: url("img/paysage.jpeg");
+    background-size: cover;
+}
+
+td {
+    background-color: rgb(83, 9, 147);
+    padding: 3.2em;
+    border-style: inset;
+    border-color: rgb(117, 25, 197);
+    border-width: 5px;
+}
+
+.section-global h1{
+    background : linear-gradient(360deg, rgb(47, 2, 84), rgb(187, 135, 230));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-global table{
+    border-spacing: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
