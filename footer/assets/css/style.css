@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
-
+/*Background global*/
 #main-footer{
     background-color:rgb(5, 5, 53) ;
     padding-top: 55 px;
 }
+/*------------------*/
 
 #copy{
     padding-top: 120px;
@@ -13,11 +14,13 @@ strong{
     color: #ff9100;
 }
 
+/*changement de puce + couleur*/
 ul li::before{
     content: "■";
     color: #ff9100;
     margin-right: 10px;
 }
+/*---------------------------*/
 
 /* Modification icon */
 .global i{
@@ -29,18 +32,22 @@ ul li::before{
     border-radius: .35em;
     padding: 2px;
 }
+/*-----------------------*/
 
+/*modification paragraphe + texte*/
 .global p, li, a{
     color: rgb(168, 158, 167);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
+/*modification titre*/
 .global h2{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
+/*modification liste*/
 .global ul{
     list-style: none;
     padding-left: 0;
@@ -54,7 +61,9 @@ ul li::before{
 .global ul li a:hover{
     color: #ff9100;
 }
+/*---------------------*/
 
+/*modification global*/
 .global{
     display: flex;
     justify-content: center;
