@@ -9,6 +9,9 @@
 
 }
 
+.listenav{
+  margin-top: 0px;
+}
 
   .wrapper{
     position: fixed;
@@ -54,6 +57,8 @@
   }
   #active:checked ~ .menu-btn{
     color: orange;
+    margin-top: -5px;
+    display: flex;
   }
   #active:checked ~ .menu-btn i:before{
     content: "";
@@ -85,25 +90,43 @@
     line-height: 50px;
     transition: all 0.3s ease;
     font-family: 'Roboto', sans-serif;
+  
+
+    
+    
+
+    
+    
+    ;
+    
+ 
     
     
   }
   .wrapper ul li a:after{
+    content: ""; 
     position: absolute;
-    content: "";
     background: orange;
-     background: linear-gradient#14ffe9, #ffeb3b, #ff00e0;
+    background: linear-gradient#14ffe9, #ffeb3b, #ff00e0;
     /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
-    width: 104%;
-    height: 110%;
-    left: -2%;
-    top: -5%; /* if the font is 'Oswald'*/
-    border-radius: 50px;
-    transform: scaleY(0);
+    width: auto; 
+    height: auto; 
+    left: auto; 
+    right: auto;
+    bottom: auto;
+    top: auto; /* if the font is 'Oswald'*/
+    border-radius: 50px; 
+    transform: scaleY(0); 
     z-index: -1;
-    animation: rotate 1.5s linear infinite;
-    transition: transform 0.3s ease;
+    animation: rotate 1.5s linear infinite; 
+    transition: transform 0.5s ease; 
     font-family: 'Roboto', sans-serif;
+    display: flex;
+  
+   
+
+    /*espace entre les liens*/
+
   }
   .wrapper ul li a:hover:after{
     transform: scaleY(1);
@@ -124,7 +147,7 @@
     width: 100%;
     color : white;
     font-family: 'Roboto', sans-serif;
-  }
+    }
   .content .title{
     font-size: 40px;
     font-weight: 700;
