@@ -15,7 +15,7 @@ strong{
 }
 
 /*changement de puce + couleur*/
-ul li::before{
+.global-f ul li::before{
     content: "■";
     color: #ff9100;
     margin-right: 10px;
@@ -23,7 +23,7 @@ ul li::before{
 /*---------------------------*/
 
 /* Modification icon */
-.global i{
+.global-f i{
     color: #ffffff;
     font-size: x-large;
     border: 1px solid #ff9100;
@@ -35,25 +35,25 @@ ul li::before{
 /*-----------------------*/
 
 /*modification paragraphe + texte*/
-.global p, li, a{
+.global-f p, li, a{
     color: rgb(168, 158, 167);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
 /*modification titre*/
-.global h2{
+.global-f h2{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
 /*modification liste*/
-.global ul{
+.global-f ul{
     list-style: none;
     padding-left: 0;
 }
 
-.global ul li{
+.global-f ul li{
     margin-top: 15px;
     list-style-position:inside ;
 }
@@ -64,7 +64,7 @@ ul li::before{
 /*---------------------*/
 
 /*modification global*/
-.global{
+.global-f{
     display: flex;
     justify-content: center;
     justify-content: space-around;
