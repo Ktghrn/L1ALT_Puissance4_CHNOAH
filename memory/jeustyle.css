@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 #btnretour{
-    background: linear-gradient(360deg, rgb(49, 0, 88), rgb(163, 114, 203));
+    background: linear-gradient(360deg, rgb(26, 0, 44),rgb(80, 69, 171));
     font-size: 15px;
     padding: 10px 1.3em 10px 1.3em;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
 }
+.section-global{
+    position: relative;
+}
 
-.section-global a{
+.boutonR{
     text-decoration: none;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10em;
-    margin-top: -3.6em;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 1em;
 }
 
 .body-global{
-    background-image: url("img/paysage.jpeg");
+    background-image: url("img/paysage.png"); 
     background-size: cover;
+    background-position: center center;
 }
 
 td {
-    background-color: rgb(83, 9, 147);
     padding: 3.2em;
     border-style: inset;
-    border-color: rgb(117, 25, 197);
+    border-color: rgb(80, 69, 171);
     border-width: 5px;
 }
 
 .section-global h1{
-    background : linear-gradient(360deg, rgb(47, 2, 84), rgb(187, 135, 230));
+    background : linear-gradient(360deg, rgb(26, 0, 44),rgb(80, 69, 171));
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,4 +47,108 @@ td {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Style tchat*/
+.block-tchat{
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+    color: black;
+    display: flex;
+    flex-flow: column wrap;
+    position: fixed;
+    left: 70em;
+    bottom: 0;
+}
+
+.block-tchat img{
+    width: 4.5em;
+    height: 3em;
+}
+
+.head-tchat{
+    background-color: rgb(102, 102, 226);
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.text-tchat{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.text-tchat p{
+    margin-bottom: 0;
+    margin-right: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#p1{
+    background-color: rgb(63, 63, 222);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: rgb(255, 255, 255);
+    margin-top: 0.3em;
+    margin-bottom: -0.4em;
+    margin-right: 3.4em;
+}
+
+#p2{
+    background-color: rgb(182, 182, 202);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 0.3em;
+    margin-bottom: -0.4em;
+    margin-right: 3em ;
+}
+
+#p3, #p4, #p5, #p6{
+    font-size: 0.68em;
+}
+
+#p3{
+    margin-right: 7.9em;
+}
+
+#p6, #p5{
+    margin-left: 6.5em;
+
+}
+
+.block-j2{
+    display: flex;
+    flex-direction: row ;
+}
+
+.boutonC{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+.boutonC button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.block-statp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(59, 54, 202);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.block-statp p{
+    margin-top: 0.5em;
+    margin-bottom: -0.5em;
 }
