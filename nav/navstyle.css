@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 .titre{
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin-top: 10px;
-    margin-left: 25px;
+    display: flex;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 30px;
+   
+  
+    
 
 
 }
@@ -23,7 +29,7 @@
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-    background: rgb(5, 5, 53);
+    background: rgb(49,0,88);
     clip-path: circle(25px at calc(100% - 45px) 45px);
     /*mettre du texte sur le clip-path*/
     transition: all 0.3s ease-in-out;
@@ -35,7 +41,7 @@
 
 
   .menu-btn{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     right: 20px;
     /* left: 20px; */
@@ -165,4 +171,3 @@
       filter: hue-rotate(360deg);
     }
   }
-  
