@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+html {
+    height: 100%;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(49,0,88), rgb(49,0,88));
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(49,0,85),rgb(173, 58, 255) );
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box .user-box {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .login-box a:hover {
+    background :orange;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orange,
+                0 0 25px orange ,
+                0 0 50px orange,
+                0 0 100px orange;
+
+    font-family: 'Roboto', sans-serif;
+  }
