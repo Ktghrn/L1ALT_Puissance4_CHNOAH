@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400&display=swap');
+
+
+body {
+    background: linear-gradient(125deg,rgb(26, 0, 44),rgb(80, 69, 171),rgb(26, 0, 44));
+    
+}
+
+/*a {
+    text-decoration: none;
+	color: var(--primary-color);
+}*/
+
+/*.showcase {
+    height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}*/
+
+/*.video-container {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40%;
+	overflow: hidden;
+	background: white url('video/Tunnel - 26475.mp4') no-repeat center
+    center/cover;
+}*/
+
+/*.showcase h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 70px;
+  color: white;
+  letter-spacing: 1px;
+}/*
+
+/*.video-container {
+    min-width: 100%;
+	min-height: 100%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}*/
+
+/*.video-container:after {
+    content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}*/
+
+/*.comment-input-email {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
+}*/
+
+/*.comment-input-pseudo {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
+}*/
+
+/*.comment-input-mdp {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
+}*/
+
+/*.comment-input-cmdp {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
+}*/
+
+/*.btn-gradient {
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 15px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-family:'Roboto Flex', sans-serif;
+  background: rgb(213, 118, 28);
+  margin: 10px;
+  border: none;
+  margin-left: 0px;
+}*/
