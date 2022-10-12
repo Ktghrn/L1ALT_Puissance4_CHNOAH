@@ -51,6 +51,8 @@ td {
 
 /*Style tchat*/
 .block-tchat{
+    margin-left: -2em;
+    margin-right: 2em;
     background-color: rgb(255, 255, 255);
     border-top-left-radius: 0.9em;
     border-top-right-radius: 0.9em;
