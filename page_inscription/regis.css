@@ -19,12 +19,12 @@ a {
 
 .showcase {
     height: 40vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-      padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
 }
 
 .video-container {
@@ -34,8 +34,6 @@ a {
 	width: 100%;
 	height: 40%;
 	overflow: hidden;
-	background: white url('video/Tunnel - 26475.mp4') no-repeat center
-    center/cover;
 }
 .showcase h1 {
   display: flex;
@@ -67,6 +65,29 @@ a {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 }
+
+.contacterh1{
+    position: relative;
+}
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.sendinscrition {
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+
 .comment-input-email {
     border-radius: 8px;
     padding: 10px;
@@ -75,6 +96,8 @@ a {
     color: whitesmoke;
     background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
 }
+
+
 
 .comment-input-pseudo {
     border-radius: 8px;
@@ -103,15 +126,64 @@ a {
     background-color: rgba(26, 0, 44, 0.351); box-shadow:10px 10px 15px rgba(26, 0, 44, 0.351);
 }
 
-.btn-gradient {
-  cursor: pointer;
-  color: whitesmoke;
-  font-size: 15px;
-  padding: 8px 24px;
-  border-radius: 4px;
-  font-family:'Roboto Flex', sans-serif;
-  background: rgb(213, 118, 28);
-  margin: 10px;
-  border: none;
-  margin-left: 0px;
+
+.comment input{
+    margin-bottom: 2em;
+    width: 200px;
+    height: 10%;
+}
+
+.comment-input-email {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.comment-input-pseudo {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.comment-input-mdp {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .comment-input-cmdp {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .btn-gradient {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-family:'Roboto Flex', sans-serif;
+    background: rgb(213, 118, 28);
+    margin: 10px;
+    border: none;
+    margin-left: 41.5%;
+}
+
+.subject-input {
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 41%;
+    margin-top: 8%;
+}
+
+.button {
+    display: flex;
+    justify-self: start;
 }
