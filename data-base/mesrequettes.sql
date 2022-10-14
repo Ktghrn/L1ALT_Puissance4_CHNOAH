@@ -19,5 +19,21 @@ INSERT INTO `score3` (`user_id`, `level`, `score`)
 VALUES (1, 'normal', 100) 
 ON DUPLICATE KEY UPDATE `score` = 100, `level` = 'normal';
 
+-- Story 3 --
+
+UPDATE user
+SET password = 'password'
+WHERE user_id = 1;
+
+-- Story 3 -- 
+
+UPDATE user
+SET email = 'nvemail@test.com'
+WHERE user_id = 1
+AND password = 'test';
+
+-- Story 4 -- 
+
+SELECT * FROM user WHERE email = 'test' AND password = 'test';
 
 
