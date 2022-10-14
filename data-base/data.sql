@@ -180,7 +180,7 @@ ALTER TABLE `score4`
 
 
 
-# Tab de données Utilisateur
+# Tab de données user
 
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
