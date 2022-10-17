@@ -49,7 +49,7 @@ a {
 }
 
 .contacterh1{
-  position: relative;
+  position: absolute;
 }
 
 .video-container video {
@@ -64,18 +64,15 @@ a {
 
 .video-container:after {
 	content: '';
-	z-index: 1;
+
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
 	background: rgba(0, 0, 0, 0.5);
-	position: absolute;
+	position: relative;
 }
 
-.content-contact {
-	z-index: 2;
-}
 
 
 

@@ -27,6 +27,7 @@
     /*mettre du texte sur le clip-path*/
     transition: all 0.3s ease-in-out;
     font-family: 'Roboto', sans-serif;
+    
   }
   #active:checked ~ .wrapper{
     clip-path: circle(75%);
