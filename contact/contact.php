@@ -4,21 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
   <link rel="stylesheet" href="_contact.css">
+  <link rel="stylesheet" href="../include/navstyle.css">
+  <link rel="stylesheet" href="../include/footerstyle.css">
   <title>Contact</title>
 </head>
 
 
 <body>
-
+<?php
+require '../nav/header.inc.php';
+?>
 <!--BANNER -->
+
 
   <section class="showcase">
     <div class="video-container">
-      <video autoplay="autoplay" muted="" loop="infinite" src="video/Tunnel - 26475.mp4"></video> 
+      <video autoplay="autoplay" muted="" loop="infinite" src="video/Tunnel - 26475.mp4"></video>
     </div>
     <div class="contacterh1">
-      <strong><h1>NOUS CONTACTER</h1></strong> 
+      <strong><h1>NOUS CONTACTER</h1></strong>
     </div>
   </section>
 
@@ -86,7 +96,9 @@
   </div>
 </section>
 
-
+<?php
+require '../footer/footer.inc.php';
+?>
 
 </body>
 </html>
