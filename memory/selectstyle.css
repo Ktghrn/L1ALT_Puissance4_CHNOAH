@@ -82,6 +82,13 @@ a{
   margin-bottom: 2em;
 }
 
+.container-img{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
 .btn-select{
   display: flex;
   justify-content: center;
