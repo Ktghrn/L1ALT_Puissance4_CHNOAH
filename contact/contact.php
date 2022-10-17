@@ -1,25 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-  <link rel="stylesheet" href="_contact.css">
-  <link rel="stylesheet" href="../include/navstyle.css">
-  <link rel="stylesheet" href="../include/footerstyle.css">
-  <title>Contact</title>
+<?php
+  require '../include/og_header.inc.php';
+  ?>
+  <link rel="stylesheet" href="../contact/_contact.css">
 </head>
 
 
 <body>
 <?php
-require '../nav/header.inc.php';
-?>
+  require '../include/header.inc.php';
+  ?>
 <!--BANNER -->
 
 
@@ -97,7 +89,7 @@ require '../nav/header.inc.php';
 </section>
 
 <?php
-require '../footer/footer.inc.php';
+require '../include/footer.inc.php';
 ?>
 
 </body>
