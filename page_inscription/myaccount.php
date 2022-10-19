@@ -1,21 +1,23 @@
     <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link  rel="stylesheet" href="regis.css">
+  <?php
+  require '../include/og_header.inc.php';
+  ?>
+  <link  rel="stylesheet" href="../page_inscription/regis.css">
 </head>
 <body>
+<?php
+  require '../include/header.inc.php';
+  ?>
     <!--BANNER-->
 
     <section class="showcase">
         <div class="video-container">
-        <video autoplay="autoplay" muted="" loop="infinite" src="../contact/video/Tunnel - 26475.mp4"></video> 
+        <video autoplay="autoplay" muted="" loop="infinite" src="../contact/video/Tunnel - 26475.mp4"></video>
         </div>
         <div class="contacterh1">
-            <strong><h1>MON COMPTE</h1></strong> 
+            <strong><h1>MON COMPTE</h1></strong>
         </div>
     </section>
 
@@ -34,10 +36,9 @@
             <div class="button">
                  <input type="button" class="btn-gradient" value="Valider les modifications">
             </div>
-      </section> 
-
+      </section>
+m<?php
+require '../include/footer.inc.php';
+?>
 </body>
 </html>
-
-
-

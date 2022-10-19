@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400&display=swap');
 
 * {
+  margin: 0px;
+  padding: 0px;
   font-family: 'Roboto Flex', sans-serif;
 }
 
 body {
-
   background: linear-gradient(125deg,rgb(26, 0, 44),rgb(80, 69, 171),rgb(26, 0, 44)) no-repeat;
 }
 
@@ -25,12 +26,15 @@ a {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+
+  font-size: 70px;
 	color: #fff;
-	padding: 0 20px;
+  letter-spacing: 1px;
+
 }
 
 .video-container {
-  position: relative;
+  position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -49,7 +53,7 @@ a {
 }
 
 .contacterh1{
-  position: absolute;
+  position: relative;
 }
 
 .video-container video {
@@ -64,7 +68,6 @@ a {
 
 .video-container:after {
 	content: '';
-
 	height: 100%;
 	width: 100%;
 	top: 0;
