@@ -9,7 +9,3 @@
   <link rel="stylesheet" href="../nav/navstyle.css">
   <link rel="stylesheet" href="../footer/footerstyle.css">
   <link rel="stylesheet" href="../index.css">
-
-  <!--suppression de la balise de fin HTML-->
-  <!--include la variable pour call head ?-->
-  <!--creation fichier og_head avec dedans les fichier footer.inc + header.inc-->

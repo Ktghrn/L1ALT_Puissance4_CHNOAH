@@ -8,7 +8,6 @@
 
 
 body {
-  line-height: 13;
   background: linear-gradient(125deg,rgb(26, 0, 44),rgb(80, 69, 171),rgb(26, 0, 44)) no-repeat;
 }
 
@@ -18,17 +17,20 @@ a {
 }
 
 .showcase {
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
+
 .video-container {
-    position: absolute;
+  position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -45,10 +47,15 @@ a {
   letter-spacing: 1px;
 }
 
+.contacterh1{
+  position: relative;
+}
+
+
 .video-container video {
 	min-width: 100%;
 	min-height: 100%;
-    position: absolute;
+  position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -56,30 +63,16 @@ a {
 }
 
 .video-container:after {
-	content: '';
-	z-index: 1;
+  content: '';
 	height: 100%;
-	width: 100%;
 	top: 0;
 	left: 0;
 	background: rgba(0, 0, 0, 0.5);
-	position: absolute;
-}
 
-.contacterh1{
-    position: relative;
 }
+/* END BANNER */
 
-.video-container:after {
-	content: '';
-	z-index: 1;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.5);
-	position: absolute;
-}
+
 
 .sendinscrition {
     margin-top: 70px;

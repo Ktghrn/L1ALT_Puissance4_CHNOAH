@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html class="htmlindex" lang="fr">
 <head>
   <?php
   require 'include/og_header.inc.php';
   ?>
 <link rel="stylesheet" href="../normalize.css">
 </head>
-<body>
+<body class ="bodyindex">
   <?php
   require 'include/header.inc.php';
   ?>
@@ -24,27 +24,27 @@
     </section>
     <section class="abs">
         <div class="img-p">   <!--Block image + pargraphe-->
-            <div class="img">   <!--Image-->
+            <div class="imgg">   <!--Image-->
                 <img src="video-img-index/img1.jpg" alt="image jeux video arcade">
                 <img src="video-img-index/img2.jpg" alt="Poster creeper">
                 <img src="video-img-index/img3.jpg" alt="Poster arcade">
             </div>  <!--------->
             <div class="bp">   <!--Paragraphe-->
-                <h1>01</h1>
+                <h1 class ="h1t">01</h1>
                 <div>
                     <h3>Lorem Ipsum</h3>
                     <p>Quisque commodo facilisis pursus, interdum voluptat arcu viverra sed.
                         Etiam sodales convallis pretium. Aenean pharetra laoreet lorem.
                         Nunc daphibus tincidunt sem a pharetra. Duis vitae tristique leo, sed faucibus ipsum</p>
                 </div>
-                <h1>02</h1>
+                <h1 class="h1t">02</h1>
                 <div>
                     <h3>Lorem Ipsum</h3>
                     <p>Quisque commodo facilisis pursus, interdum voluptat arcu viverra sed.
                         Etiam sodales convallis pretium. Aenean pharetra laoreet lorem.
                         Nunc daphibus tincidunt sem a pharetra. Duis vitae tristique leo, sed faucibus ipsum</p>
                 </div>
-                <h1>03</h1>
+                <h1 class="h1t">03</h1>
                 <div>
                     <h3>Lorem Ipsum</h3>
                     <p>Quisque commodo facilisis pursus, interdum voluptat arcu viverra sed.
@@ -54,33 +54,33 @@
             </div>  <!-------------->
         </div>  <!--------------------------->
         <div class="stats">   <!--Block stats-->
-            <img src="video-img-index/img4.jpg" alt="">
+            <img class = "imgg" src="video-img-index/img4.jpg" alt="">
             <div>
                 <div class="block1">
-                    <h1>0</h1>
+                    <h1 class="h1t">0</h1>
                     <h3>Parties Jouées</h3>
                 </div>
                 <div class="block2">
-                    <h1>0 sec</h1>
+                    <h1 class ="h1t">0 sec</h1>
                     <h3>Temps Record</h3>
                 </div>
             </div>
             <div>
                 <div class="block3">
-                    <h1>0</h1>
+                    <h1 class="h1t">0</h1>
                     <h3>Joueurs Connectés</h3>
                 </div>
                 <div class="block4">
-                    <h1>0</h1>
+                    <h1 class ="h1t">0</h1>
                     <h3>Joueurs Inscrits</h3>
                 </div>
             </div>
         </div>  <!--------------->
         <div>   <!--Block équipe-->
             <div class="para">
-                <h1>Notre Équipe</h1>
+                <h1 class="h1t">Notre Équipe</h1>
                 <p>Quisque commodo facilisis pursus, interdum volitpat arcu viverra sed.</p>
-                <img src="video-img-index/img5.png" alt="">
+                <img class = "imgg" src="video-img-index/img5.png" alt="">
             </div>
             <div class="team">
                 <div class="person">
@@ -116,7 +116,7 @@
                 <div class="person">
                     <div class="container">
                         <div class="container-inner">
-                            <img class="circle" src="video-img-index/anto.jpeg"/>
+                            <img  class="circle" src="video-img-index/anto.jpeg"/>
                         </div>
                     </div>
                     <div class="divider"></div>
