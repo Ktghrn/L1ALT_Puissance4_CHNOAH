@@ -1,18 +1,19 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link  rel="stylesheet" href="login.css">
+<?php
+  require '../include/og_header.inc.php';
+  ?>
+  <link  rel="stylesheet" href="../Login/login.css">
 
   <title>Login</title>
 </head>
 <body>
 
+<?php
+  require '../include/header.inc.php';
+  ?>
 
   <section class="showcase">
     <div class="video-container">
@@ -30,6 +31,8 @@
     </div>
       <div><button class='ghost-round'>Let's go</button></div>
 
-      
+  <?php
+  require '../include/footer.inc.php';
+  ?>
 </body>
 </html>
