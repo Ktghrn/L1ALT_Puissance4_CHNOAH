@@ -4,7 +4,7 @@
   <?php
   require 'include/og_header.inc.php';
   ?>
-<link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body class ="bodyindex">
   <?php
@@ -19,12 +19,12 @@
                 <p>NOTRE STUDIO !</p>
             </div>
             <p>Venez challenger les cerveaux les plus agiles !</p>
-            <a href="memory/memory.html"><button>JOUER !</button></a>
+            <a href="memory/select.html"><button>JOUER !</button></a>
         </div>
     </section>
     <section class="abs">
         <div class="img-p">   <!--Block image + pargraphe-->
-            <div class="imgg">   <!--Image-->
+            <div class="img-i">   <!--Image-->
                 <img src="video-img-index/img1.jpg" alt="image jeux video arcade">
                 <img src="video-img-index/img2.jpg" alt="Poster creeper">
                 <img src="video-img-index/img3.jpg" alt="Poster arcade">
@@ -54,7 +54,7 @@
             </div>  <!-------------->
         </div>  <!--------------------------->
         <div class="stats">   <!--Block stats-->
-            <img class = "imgg" src="video-img-index/img4.jpg" alt="">
+            <img class = "img-i" src="video-img-index/img4.jpg" alt="">
             <div>
                 <div class="block1">
                     <h1 class="h1t">0</h1>
@@ -80,7 +80,7 @@
             <div class="para">
                 <h1 class="h1t">Notre Équipe</h1>
                 <p>Quisque commodo facilisis pursus, interdum volitpat arcu viverra sed.</p>
-                <img class = "imgg" src="video-img-index/img5.png" alt="">
+                <img class = "img-i" src="video-img-index/img5.png" alt="">
             </div>
             <div class="team">
                 <div class="person">
