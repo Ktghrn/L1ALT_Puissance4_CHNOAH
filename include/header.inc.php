@@ -1,4 +1,8 @@
+<?php
 
+include_once 'database.inc.php';
+
+?>
 
   <div>
     <input type="checkbox" id="active">

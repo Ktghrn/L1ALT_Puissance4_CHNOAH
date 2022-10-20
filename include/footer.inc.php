@@ -1,3 +1,8 @@
+<?php
+
+   include_once 'database.inc.php';
+
+?>
     <footer id="main-footer">
         <div class="global-f">
             <div class="information">
