@@ -16,9 +16,9 @@
             <div class="lien">
                 <h2>Power Of Memory</h2>
                 <ul>
-                    <li><a href="../memory/memory.html">Jouer !</li></a>
-                    <li><a href="#">Les scores</li></a>
-                    <li><a href="#">Nous contacter</li></a>
+                    <li><a href="../memory/select.html">Jouer !</li></a>
+                    <li><a href="../tab_score/tab_score.php">Les scores</li></a>
+                    <li><a href="../contact/contact.php">Nous contacter</li></a>
                 </ul>
             </div>
         </div>
