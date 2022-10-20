@@ -15,10 +15,10 @@ html {
   .score1{
     display: flex;
     justify-content: center;
-    padding-top: 11%;
-    
+    padding-top: 50px;
+
   }
-    
+
 .titrescore {
     margin: 0 0 30px;
     padding: 0;
@@ -104,7 +104,7 @@ html {
 
 
 }
-  
+
   .reussite{
     background: linear-gradient(125deg, rgb(26,0,44),rgb(80, 69, 171),rgb(26,0,44) );
     box-sizing: border-box;
@@ -114,8 +114,8 @@ html {
     height: 335px;
     width: 250px;
   }
-  
-   
+
+
   .clicks{
     background: linear-gradient(125deg, rgb(26,0,44),rgb(80, 69, 171),rgb(26,0,44) );
     box-sizing: border-box;
@@ -125,10 +125,10 @@ html {
     height: 150px;
     width: 250px;
     margin-top: 10px;
-    
+
 
   }
-  
+
   .classement{
     background: linear-gradient(125deg, rgb(26,0,44),rgb(80, 69, 171),rgb(26,0,44) );
     box-sizing: border-box;
@@ -140,7 +140,7 @@ html {
     font-size: 25px;
     height: 500px;
 
-    
+
   }
 
   .titrescore{
@@ -156,7 +156,7 @@ html {
   }
 
   .tab2{
-    
+
     display: flex;
     justify-content: center;
     border-color: orange;
@@ -171,16 +171,16 @@ html {
     margin-top: -20px;
 
   }
-  
+
   .tab2 td, #tab2 th {
     border: 1px solid #ddd;
     padding: 8px;
   }
-  
+
   .tab2 tr:nth-child(even){background-color: rgb(173, 58, 255);}
-  
+
   .tab2 tr:hover {background-color: orange;}
-  
+
   .tab2 th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -189,7 +189,7 @@ html {
     color: white;
     text-align: center;
     width: 135px;
-    
+
 
   }
 
