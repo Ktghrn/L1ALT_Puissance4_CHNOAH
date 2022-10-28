@@ -4,7 +4,7 @@
   <?php
   require 'include/og_header.inc.php';
   ?>
-    <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="index.css">
 </head>
 <body class ="bodyindex">
   <?php
