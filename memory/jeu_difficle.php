@@ -14,7 +14,9 @@
     <h1>Click: <span class="playerClickCount"></span></h1>
     <h1>Time: <span class="TimerCount"></span></h1>
     <section class="section3"></section>
+    <a href="./select.php"><button>return</button></a>
     <script src="./theme_js/difficile.js"></script>
 </body>
+
 
 </html>
