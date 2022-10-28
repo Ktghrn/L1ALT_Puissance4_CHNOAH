@@ -10,12 +10,13 @@ include_once 'database.inc.php';
     <div class="wrapper">
       <h1 class="titre">The Power Of Memory</h1>
       <ul class="listenav">
-        <li><a href="#">ACCEUIL</a></li>
-        <li><a href="#">JEUX</a></li>
-        <li><a href="#">SCORES</a></li>
-        <li><a href="#">NOUS CONTATCTER</a></li>
-        <li><a href="#">CONNEXION</a></li>
-        <li><a href="#">S'INSCRIRE</a></li>
+        <li><a href="../index.php">ACCEUIL</a></li>
+        <li><a href="../memory/select.html">JEUX</a></li>
+        <li><a href="../tab_score/tab_score.php">SCORES</a></li>
+        <li><a href="../contact/contact.php">NOUS CONTATCTER</a></li>
+        <li><a href="../chat/chat.php">CHAT</a></li>
+        <li><a href="../Login/login.php">CONNEXION</a></li>
+        <li><a href="../page_inscription/register.php">S'INSCRIRE</a></li>
       </ul>
     </div>
 </div>

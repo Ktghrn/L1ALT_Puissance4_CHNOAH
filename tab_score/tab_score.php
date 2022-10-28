@@ -23,18 +23,6 @@
 
         <div class ="reussiteclicks">
 
-
-             <div class="reussite">
-
-                <h1 class="titrescore">nb.Réussites</h1>
-                </br>
-                <p id="scoreréussite"><a>14/28</a></p>
-
-                <h2 class="titrescore2">Pourcentage de Réussites</h2>
-                <p id="scoreréussite2">50%</p>
-
-             </div>
-
              <div class = "clicks">
                 <h1 class="titrescore">nb.Clicks </h1>
                 </br>
@@ -52,10 +40,8 @@
                 <tr>
                     <th>Rang</th>
                     <th>Pseudo</th>
-                    <th>Nb.Réussite</th>
+                    <th>Nb.Click</th>
                     <th>Niveau de difficulté</th>
-                    <th>Score du joueur</th>
-
 
                   </tr>
                   <tr>
@@ -63,7 +49,7 @@
                     <td class="nomplayer"> Kevin </td>
                     <td class="ratio"> 20/28 </td>
                     <td class="level"> Difficile </td>
-                    <td class="pts"> 200 pts </td>
+                  
 
                   </tr>
                   <tr>
@@ -71,28 +57,25 @@
                     <td class="nomplayer"> Paul </td>
                     <td class="ratio"> 18/28 </td>
                     <td class="level"> Difficile </td>
-                    <td class="pts"> 100 pts </td>
                   </tr>
                   <tr>
                     <td class="rang"> #3 </td>
                     <td class="nomplayer"> Jacques </td>
                     <td class="ratio"> 17/28 </td>
                     <td class="level"> Moyen </td>
-                    <td class="pts"> 100 pts </td>
+
                   </tr>
                   <tr>
                     <td class="rang"> #4 </td>
                     <td class="nomplayer"> Louis </td>
                     <td class="ratio"> 16/28 </td>
                     <td class="level"> Difficile </td>
-                    <td class="pts"> 400 pts </td>
                   </tr>
                   <tr>
                     <td class="rang"> #5 </td>
                     <td class="nomplayer"> Charles </td>
                     <td class="ratio"> 14/28 </td>
                     <td class="level"> Facile </td>
-                    <td class="pts"> 100 pts </td>
                   </tr>
             </table>
 

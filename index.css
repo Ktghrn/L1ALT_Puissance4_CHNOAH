@@ -38,7 +38,7 @@
 }
 
 
-.img{
+.img-i{
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -60,7 +60,7 @@
     flex-flow: column wrap;
     color: rgb(255, 255, 255);
     background-color: rgb(65, 17, 177);
-    padding: 0.5em 4em 0.5em 4em;
+    padding: 0.5em 2em 0.5em 2em;
     margin-bottom: 1.5em;
     margin-left: 1em;
     border-radius: 1em;
@@ -73,7 +73,7 @@
     flex-flow: column wrap;
     color: rgb(255, 255, 255);
     background-color: rgb(142, 17, 177);
-    padding: 0.5em 4em 0.5em 4em;
+    padding: 0.5em 3.5em 0.5em 3.5em;
     margin-left: 1em;
     border-radius: 1em;
     font-family: 'Roboto', sans-serif;
@@ -85,7 +85,7 @@
     flex-flow: column wrap;
     color: rgb(255, 255, 255);
     background-color: rgb(28, 160, 37);
-    padding: 0.5em 2.91em 0.5em 2.91em;
+    padding: 0.5em 2em 0.5em 2em;
     margin-bottom: 1.5em;
     margin-left: 1em;
     border-radius: 1em;
@@ -98,7 +98,7 @@
     flex-flow: column wrap;
     color: rgb(255, 255, 255);
     background-color: rgb(177, 132, 17);
-    padding: 0.5em 2.91em 0.5em 2.91em;
+    padding: 0.5em 2em 0.5em 2em;
     border-radius: 1em;
     margin-left: 1em;
     font-family: 'Roboto', sans-serif;
