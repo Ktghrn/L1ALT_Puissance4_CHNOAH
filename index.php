@@ -132,8 +132,8 @@
         </div>  <!---------------->
 
     </section>
-    <?php
-require 'include/footer.inc.php';
-?>
+  <?php
+  require 'include/footer.inc.php';
+  ?>
 </body>
 </html>

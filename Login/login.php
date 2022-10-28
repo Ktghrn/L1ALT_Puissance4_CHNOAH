@@ -23,6 +23,8 @@
                 <i class="fas fa-times"></i>
               </a>
             </div>';
+            header('Location: ../index.php');
+            exit();
           }else{
               echo "mdp incorrect";
           }
