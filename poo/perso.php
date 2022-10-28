@@ -10,7 +10,7 @@ class Character {
 
     $this->pv = $pv;
     $this->atq = $atq;
-    $this->def = $def
+    $this->def = $def;
 
   }
 

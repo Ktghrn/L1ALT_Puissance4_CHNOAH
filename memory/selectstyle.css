@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto Flex', sans-serif;
-}  
-  
+}
+
 a{
   text-decoration: none;
   color: var(--primary-color);
@@ -20,7 +20,7 @@ a{
   color: #fff;
   padding: 0 20px;
 }
-  
+
 .video-container {
   position: absolute;
   top: 0;
@@ -29,7 +29,7 @@ a{
   height: 40%;
   overflow: hidden;
 }
-  
+
 .showcase h1{
   display: flex;
   justify-content: center;
@@ -39,11 +39,11 @@ a{
   color: white;
   letter-spacing: 1px;
 }
-  
+
 .contacterh1{
   position: relative;
 }
-  
+
 .video-container video {
   min-width: 100%;
   min-height: 100%;
@@ -53,10 +53,10 @@ a{
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
-  
+
 .video-container:after {
   content: '';
-  z-index: 1;
+
   height: 100%;
   width: 100%;
   top: 0;

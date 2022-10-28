@@ -14,7 +14,30 @@ a {
 }
 
 
+.flash {
+  padding: 8px 15px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+  position: absolute;
+  z-index: 999;
+}
 
+.flash-success {
+  border: 2px solid #1EDD88;
+}
+
+.flash-warning {
+  border: 2px solid #FFC65A;
+}
+
+.flash-danger {
+  border: 2px solid #FD1015;
+}
 
 
 /* BANNER */
@@ -86,6 +109,10 @@ a {
 
 
 /*LOGIN FORM*/
+
+.error{
+  color: red;
+}
 input {
   border-radius: 8px;
   padding: 10px;
