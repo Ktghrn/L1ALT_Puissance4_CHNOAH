@@ -1,4 +1,5 @@
 <?php
+//delete
 session_start();
  
 function loginForm(){
@@ -13,7 +14,8 @@ function loginForm(){
     </div>
     ';
 }
-
+//--------
+//move
 if(isset($_POST['enter'])){
     if($_POST['name'] != ""){
         $_SESSION['name'] = stripslashes(htmlspecialchars($_POST['name']));

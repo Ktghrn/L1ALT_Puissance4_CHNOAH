@@ -1,10 +1,19 @@
 /* CSS Document */
-.container-chatbox {
+  
+#container{
     font:12px arial;
     color: #222;
     text-align:center;
-    padding:35px; }
-  
+    padding:35px;
+}
+
+#loginFrom{
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px;
+} 
+
 .container-chatbox form, p, span {
     margin:0;
     padding:0; }

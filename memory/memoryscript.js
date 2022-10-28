@@ -18,3 +18,4 @@ function img2() {
     };
     document.getElementById('myimage2').src = imgMap[difficult];
 }
+
