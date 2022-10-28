@@ -60,12 +60,22 @@ SET time_zone = "+00:00";
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `date_inscription` date NOT NULL,
-  `date_last_connexion` date NOT NULL,
+  `mdp` varchar(255) NOT NULL,
   `pseudo` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `users_login` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(255) NOT NULL,
+  `mdp` varchar(255) NOT NULL,
+  `last_connexion` date NOT NULL,
+  `pseudo` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
 
 
 
@@ -109,9 +119,9 @@ SET time_zone = "+00:00";
 -- Structure de la table `user`
 --*/
 
-CREATE TABLE `sign_user` (
+CREATE TABLE `user` (
   `id` int(11) NOT NULL,
-  `login` varchar(255) NOT NULL,
+  `pseudo` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `first_connexion` date NOT NULL,
@@ -125,7 +135,7 @@ CREATE TABLE `sign_user` (
 --
 -- Index pour la table `user`
 --*/
-ALTER TABLE `sign_user`
+ALTER TABLE `user`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `login_unique` (`login`),
   ADD UNIQUE KEY `email_unique` (`email`);
@@ -137,7 +147,7 @@ ALTER TABLE `sign_user`
 --
 -- AUTO_INCREMENT pour la table `user`
 --*/
-ALTER TABLE `sign_user`
+ALTER TABLE `users_login`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
